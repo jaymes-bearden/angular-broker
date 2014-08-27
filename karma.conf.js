@@ -19,9 +19,11 @@ module.exports = function (config) {
         frameworks: ['jasmine'],
 
         reporters: ['dots'],
+
         plugins: [
             'karma-jasmine',
             'karma-junit-reporter',
+            'karma-coverage',
             'karma-phantomjs-launcher',
             'karma-chrome-launcher'
         ],
