@@ -1,0 +1,17 @@
+*.log
+*.csv
+*.dat
+*.pid
+.DS_Store
+
+# Node Related
+node_modules
+dist
+npm-debug.log
+
+# Karma Related
+coverage/
+
+# IntelliJ
+.idea
+*.iml
